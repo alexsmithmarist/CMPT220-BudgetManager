@@ -4,6 +4,7 @@
  * Author : Alex Smith
  * Course : CMPT220
  * Date : February 7, 2017
+ * Version: 2.0
  */
  
 import java.util.Scanner;
@@ -12,14 +13,14 @@ public class Lab2_problem41{
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 	
-	System.out.print("Enter the length from the center of a pentagon to a vertex: ");
-	double radius = input.nextDouble();
+	  System.out.print("Enter the length from the center of a pentagon to a vertex: ");
+	  double radius = input.nextDouble();
 	
-	double side = 2 * radius * (Math.sin(Math.PI / 5));
-	double area = (5 * (Math.pow(side, 2)) / (4 * (Math.tan(Math.PI / 5))));
-	area = Math.round(area * 100);
-	area = area/100;
+	  double side = 2 * radius * (Math.sin(Math.PI / 5));
+	  double area = (5 * (Math.pow(side, 2)) / (4 * (Math.tan(Math.PI / 5))));
+	  area = Math.round(area * 100);
+	  area = area/100;
 	
-	System.out.println("The area of the pentagon is "+ area +".");
+	  System.out.println("The area of the pentagon is "+ area +".");
   }
 }
