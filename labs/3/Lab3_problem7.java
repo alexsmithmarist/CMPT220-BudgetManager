@@ -4,6 +4,7 @@
  * Author : Alex Smith
  * Course : CMPT220
  * Date : February 21, 2017
+ * Version: 2.0
  */
  
 public class Lab3_problem7{
@@ -17,8 +18,8 @@ public class Lab3_problem7{
     }
 
     System.out.printf("The tuition in ten years will be $%.2f",tuition);
-	//To make the next statement appear on another line
-	System.out.println(" ");
+	  //To make the next statement appear on another line
+	  System.out.println(" ");
 
     double fouryears = 0;
 
