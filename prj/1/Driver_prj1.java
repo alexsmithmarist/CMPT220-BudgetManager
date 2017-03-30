@@ -4,19 +4,23 @@
  * Author : Alex Smith
  * Course : CMPT220
  * Due Date : March 30, 2017
- * Version : 1.0
+ * Version : 1.1
  */
 
 import java.util.Scanner;
-import java.io.File;
 
 public class Driver_prj1 {
   public static void main(String[] args){
     Scanner input = new Scanner(System.in);
 
- 
+
     double[] vFirst = new double[input.nextInt()];
     double[] vSecond = new double[input.nextInt()];
+
+    if(vFirst.length == 0 || vSecond.length == 0 || vFirst.length < 0 || vSecond.length < 0){
+      System.out.println("Invalid array size");
+      System.exit(0);
+    }
 
     for(int i = 0; i < vFirst.length; i++){
       vFirst[i] = input.nextDouble();
@@ -26,7 +30,7 @@ public class Driver_prj1 {
       vSecond[i] = input.nextDouble();
     }
     
-    /* To check if inputs work properly
+    /* To check if input works properly
     for(int i = 0; i < vFirst.length; i++){
       System.out.println(vFirst[i]);
     }
