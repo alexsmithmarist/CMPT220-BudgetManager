@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 21, 2017
  * Version: 2.0
+ *
+ * This file determines the number of positive values, negative values, the total, and average of a group of numbers
  */
  
  import java.util.Scanner;

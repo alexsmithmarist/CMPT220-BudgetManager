@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 22, 2017
  * Version: 2.0
+ *
+ * This file computes the p-norm distance between a pair of inputed points
  */
  
 import java.util.Scanner;

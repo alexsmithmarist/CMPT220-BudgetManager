@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 21, 2017
  * Version: 2.0
+ *
+ * This file finds the largest integer n such that n^3 is less than 12000
  */
  
 public class Lab3_problem13{

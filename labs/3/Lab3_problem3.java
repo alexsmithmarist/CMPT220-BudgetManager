@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 21, 2017
  * Version: 2.0
+ *
+ * This file checks if the input integer is a Palindrome
  */
  
 import java.util.Scanner;

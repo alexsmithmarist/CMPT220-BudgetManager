@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 21, 2017
  * Version: 2.0
+ *
+ * This file computes tuition for 10 years and for four years after the tenth year, accounting for rising tuition cost.
  */
  
 public class Lab3_problem7{

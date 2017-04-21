@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 21, 2017
  * Version: 2.0
+ *
+ * This file computes the sum of the digits in an integer
  */
 
 import java.util.Scanner;
