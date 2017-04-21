@@ -4,7 +4,9 @@
  * Author : Alex Smith
  * Course : CMPT220
  * Date : February 28, 2017
- * Version : 1.0
+ * Version : 1.1
+ *
+ * This file finds the minimum element in a given array
  */
 
 import java.util.Scanner;
