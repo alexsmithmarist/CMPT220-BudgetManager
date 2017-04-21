@@ -5,6 +5,9 @@
  * Course : CMPT220
  * Due Date : April 20, 2017
  * Version : 1.0
+ *
+ * This file creates the Location class with data values row, column, and maxValue for storing the respective data of a given array.
+ * The file also finds the largest value of a given array using the Location class and prints the element and location.
  */
 import java.util.Scanner;
 

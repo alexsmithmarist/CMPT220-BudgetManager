@@ -5,6 +5,9 @@
  * Course : CMPT220
  * Due Date : April 20, 2017
  * Version : 1.0
+ *
+ * This file creates the Rectangle class(with default constructor, methods to get area and perimeter, and a constructor for setting width and height) 
+ * and prints the width, height, area, and perimeter of the created Rectangles
  */
 
 public class Lab6_problem91{
