@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Due Date : March 30, 2017
  * Version : 1.0
+ *
+ * This file uses selection sort to sort a given array. This selection sort finds the largest numbers and swaps it with the last number.
  */
 
 import java.util.Scanner;

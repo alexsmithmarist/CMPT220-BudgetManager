@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Due Date : March 30, 2017
  * Version : 1.0
+ *
+ * This file merges two sorted lists into a new sorted list
  */
 
 import java.util.Scanner;
