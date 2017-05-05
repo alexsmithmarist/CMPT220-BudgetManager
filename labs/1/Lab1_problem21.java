@@ -4,6 +4,8 @@
  * Author : Alex Smith
  * Course : CMPT220
  * Date : January 24, 2017
+ *
+ * This file converts an input of degress in Celsius to degress in Fahrenheit and prints it.
  */
  
 import java.util.Scanner;
@@ -11,13 +13,12 @@ import java.util.Scanner;
 public class Lab1_problem21{
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
-	
-	System.out.print("Enter a degree in Celsius: ");
-	int celsiusDegree = input.nextInt();
-	
-	double fahrenheit = (9.0 / 5) * celsiusDegree + 32;
-	
-	System.out.println(celsiusDegree + " Celsius is " + fahrenheit + " Fahrenheit.");
+  
+    System.out.print("Enter a degree in Celsius: ");
+    int celsiusDegree = input.nextInt();
+  
+    double fahrenheit = (9.0 / 5) * celsiusDegree + 32;
+  
+    System.out.println(celsiusDegree + " Celsius is " + fahrenheit + " Fahrenheit.");
   }
 }
-	  
