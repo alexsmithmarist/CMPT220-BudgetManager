@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file calculates the area of a pentagon from the input of the length from the center of the pentagon to a vertex.
  */
  
 import java.util.Scanner;

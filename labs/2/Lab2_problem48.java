@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file prints the character that corresponds with a given ASCII code.
  */
  
 import java.util.Scanner;

@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file prints the amount of days in a month given the month and the year.
  */
  
  import java.util.Scanner;
@@ -30,7 +32,7 @@ public class Lab2_problem311{
 	    case 1:System.out.println("January "+year+" has 31 days."); break;
 	  
 	    case 2:if((year % 4 == 0 && year % 100 !=0) || (year % 400 == 0)){
-		         System.out.println("February "+year+" has 29 days.");
+		          System.out.println("February "+year+" has 29 days.");
 	           }
 			       else{
 			         System.out.println("February "+year+" has 28 days.");

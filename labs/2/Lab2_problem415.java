@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file determines what the corresponding number on a phone is for a letter input by the user.
  */
  
 import java.util.Scanner;

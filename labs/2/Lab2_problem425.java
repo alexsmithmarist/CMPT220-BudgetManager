@@ -5,12 +5,14 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file generates a random plate number by calculating 3 random ASCII codes for the letters and 1 random four digit number.
  */
  
 public class Lab2_problem425{
   public static void main(String[] args) {
 	
-	//Generate a random number between 65 and 90, the ASCII codes for uppercase letters
+	  //Generate a random number between 65 and 90, the ASCII codes for uppercase letters
     int letter1num = (int)(Math.random()*(90-65)+65);
 	  char letter1 = (char)letter1num;
 	

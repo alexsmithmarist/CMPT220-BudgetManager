@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file generates a random number between 1 and 12 and prints the number and name of the corresponding month.
  */
  
 public class Lab2_problem34{

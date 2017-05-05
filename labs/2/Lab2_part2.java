@@ -5,6 +5,9 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file calculates a final grade given a midterm grade, final exam grade, projects grade, and homework and labs grade.
+ * The grades are weighted and a corresponding letter grade is printed.
  */
  
 import java.util.Scanner;

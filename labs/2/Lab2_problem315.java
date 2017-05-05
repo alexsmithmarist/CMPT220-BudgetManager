@@ -5,6 +5,9 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file generates a random number and compares an input to it to determine if there is any matches in the digits.
+ * Depending on how many digits match, a winning or losing result is shown.
  */
  
 import java.util.Scanner;
@@ -38,7 +41,7 @@ public class Lab2_problem315{
 		   || guessDigit1 == lotteryDigit3 && guessDigit2 == lotteryDigit2 && guessDigit3 == lotteryDigit1
 		   || guessDigit1 == lotteryDigit1 && guessDigit2 == lotteryDigit3 && guessDigit3 == lotteryDigit2
 		   || guessDigit1 == lotteryDigit3 && guessDigit2 == lotteryDigit1 && guessDigit3 == lotteryDigit2){
-		     wincondition = 2;  
+		    wincondition = 2;  
 	  }
 	  
 	  else if(guessDigit1 == lotteryDigit2

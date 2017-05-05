@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file uses different sets of days and a user input if the birthday is in the set to determine the user's birthday.
  */
  
 import java.util.Scanner;

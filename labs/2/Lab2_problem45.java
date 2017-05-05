@@ -5,6 +5,9 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file calculates the area of a regular polygon when given the number of sides of the polygon
+ * and the side length of the polygon.
  */
  
 import java.util.Scanner;

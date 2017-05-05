@@ -5,6 +5,8 @@
  * Course : CMPT220
  * Date : February 7, 2017
  * Version: 2.0
+ *
+ * This file takes three input integers and lists them in non-decreasing order.
  */
  
  import java.util.Scanner;
@@ -26,40 +28,40 @@ public class Lab2_problem38{
 	
 	  if(integer1 == integer2){
 	    if(integer1 > integer3){
-		  max = integer1;
-		  mid = integer2;
-		  min = integer3;
+		    max = integer1;
+		    mid = integer2;
+		    min = integer3;
 	    }
 	    else{
-		  max = integer3;
-		  mid = integer2;
-		  min = integer1;
+		    max = integer3;
+		    mid = integer2;
+		    min = integer1;
 	    }
 	  }
 	
 	  else if(integer2 == integer3){
 	    if(integer2 > integer1){
-		  max = integer2;
-		  mid = integer3;
-		  min = integer1;
+		    max = integer2;
+		    mid = integer3;
+		    min = integer1;
 	    }
 	    else{
-		  max = integer1;
-		  mid = integer2;
-		  min = integer3;
+		    max = integer1;
+		    mid = integer2;
+		    min = integer3;
 	    }
 	  }
 	
 	  else if(integer1 == integer3){
 	    if(integer1 > integer2){
-		  max = integer1;
-		  mid = integer3;
-		  min = integer2;
+		    max = integer1;
+		    mid = integer3;
+		    min = integer2;
 	    }
 	    else{
-		  max = integer2;
-		  mid = integer3;
-		  min = integer1;
+		    max = integer2;
+		    mid = integer3;
+		    min = integer1;
 	    }
 	  }
 	
