@@ -1,0 +1,14 @@
+38 pts
+
+The project attempts to make a budject tracker.
+The idea has good merit. 
+
+However, there are some issues...
+Writeup:
+- It does not follow the structure required. Abstract, Introduction, etc. -1pt
+
+Code:
+- There is incorrect indentation. -1pt
+
+Overall:
+- Decent work average of an SD1 student. 
